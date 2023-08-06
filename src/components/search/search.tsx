@@ -14,7 +14,7 @@ function Search({ onSearchTermChange }: SearchProps): JSX.Element {
     <div>
       <Styled.SearchTerm
         type="search"
-        placeholder="Поиск"
+        placeholder="Поиск пользователя"
         name="search"
         onChange={handleSearch}
       />
